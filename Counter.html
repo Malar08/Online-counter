@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Online Counter</title>
+    <link rel="stylesheet" href="css\font-awesome.css"/>
+    <link rel="stylesheet" href="css\bootstrap.css">
+    <link rel="stylesheet" href="css\counter.css">
+  </head>
+  <body>
+    <h1>Online Counter</h1>
+    <div class="container">
+      <div class="row padding">
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xsm-1">
+          <span>
+            <button type="button" name="button" class="fa fa-minus cbtn" onclick="decrement()"></button>
+            <input type="text" id= "counter" class="countertxt">
+            <button type="button" name="button" class="fa fa-plus cbtn" onclick="increment()"></button>
+            <button type="button" name="button" class="fa fa-refresh cbtn" onclick="refresh()"></button>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <span class="love">
+          Made with <i class="fa fa-heart pulse font"></i> by <a>Malarvizhi Palanikumar</a>
+      </span>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/jquery.js"></script>
+  </body>
+</html>
